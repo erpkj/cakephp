@@ -1,0 +1,70 @@
+2014-01-13 18:32:29 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/cake244/app/Controller/UsersController.php, line 112]
+2014-01-13 18:32:29 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cake244/users/login
+Stack Trace:
+#0 /var/www/cake244/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake24...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#2 /var/www/cake244/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#3 /var/www/cake244/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 18:33:23 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/cake244/app/Controller/UsersController.php, line 112]
+2014-01-13 18:33:23 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cake244/users/login
+Stack Trace:
+#0 /var/www/cake244/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake24...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#2 /var/www/cake244/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#3 /var/www/cake244/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 18:40:31 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/cake244/app/Controller/UsersController.php, line 112]
+2014-01-13 18:40:31 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cake244/users/login
+Stack Trace:
+#0 /var/www/cake244/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake24...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#2 /var/www/cake244/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#3 /var/www/cake244/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 18:54:16 Error: [MissingActionException] Action UsersController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'home',
+)
+Request URL: /cake244/users/home
+Stack Trace:
+#0 /var/www/cake244/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cake244/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cake244/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-13 19:13:47 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/cake244/app/Controller/UsersController.php, line 112]
+2014-01-13 19:13:47 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cake244/users/login
+Stack Trace:
+#0 /var/www/cake244/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake24...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#2 /var/www/cake244/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#3 /var/www/cake244/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 19:13:53 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/cake244/app/Controller/UsersController.php, line 112]
+2014-01-13 19:13:53 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cake244/users/login
+Stack Trace:
+#0 /var/www/cake244/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cake24...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#2 /var/www/cake244/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cake24...', 112, Array)
+#3 /var/www/cake244/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-13 19:14:07 Error: [NotFoundException] Invalid user
+Request URL: /cake244/users/edit/1
+Stack Trace:
+#0 [internal function]: UsersController->edit('1')
+#1 /var/www/cake244/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/cake244/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cake244/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cake244/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
